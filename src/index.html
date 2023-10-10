@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../dist/output.css"/>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Landing-Page Tailwind</title>
 </head>
@@ -27,48 +26,15 @@
               </button>
             </div>
             <div class="hidden lg:flex lg:gap-x-12">
-              <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+              <a href="index.html" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
               <a href="blog.html" class="text-sm font-semibold leading-6 text-gray-900">Blog</a>
               <a href="shop.html" class="text-sm font-semibold leading-6 text-gray-900">Shop</a>
-              <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Calculator</a>  
-              <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Forum</a>  
+              <a href="kalkulator.html" class="text-sm font-semibold leading-6 text-gray-900">Calculator</a>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
               <a href="login.html" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
             </div>
           </nav>
-          <!-- Mobile menu, show/hide based on menu open state. -->
-          <div class="lg:hidden" role="dialog" aria-modal="true">
-            <!-- Background backdrop, show/hide based on slide-over state. -->
-            <div class="fixed inset-0 z-50"></div>
-            <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-customGreen px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-              <div class="flex items-center justify-between">
-                <a href="#" class="-m-1.5 p-1.5">
-                  <span class="sr-only">Your Company</span>
-                  <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
-                </a>
-                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-                  <span class="sr-only">Close menu</span>
-                  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              </div>
-              <div class="mt-6 flow-root">
-                <div class="-my-6 divide-y divide-gray-500/10">
-                  <div class="space-y-2 py-6">
-                    <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
-                    <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
-                    <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
-                    <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
-                  </div>
-                  <div class="py-6">
-                    <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </header>
       
         <div class="relative isolate px-6 pt-14 lg:px-8">
@@ -97,8 +63,103 @@
       </div>
 
     <!-- end section 1 -->
+    <div class="container max-width: 768px ml-20 mb-5">
+      <div class="grid grid-cols-4 gap-4 bg-white bg-clip-border text-gray-700 shadow-md pb-7">
+        <div class="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+          <div class="p-6">
+            <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              UI/UX Review Check
+            </h5>
+            <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+              The place is close to Barceloneta Beach and bus stop just 2 min by walk
+              and near to "Naviglio" where you can enjoy the main night life in
+              Barcelona.
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <button
+              class="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+              type="button"
+              data-ripple-light="true"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+  
+        <div class="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+          <div class="p-6">
+            <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              UI/UX Review Check
+            </h5>
+            <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+              The place is close to Barceloneta Beach and bus stop just 2 min by walk
+              and near to "Naviglio" where you can enjoy the main night life in
+              Barcelona.
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <button
+              class="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+              type="button"
+              data-ripple-light="true"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+  
+  
+        <div class="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+          <div class="p-6">
+            <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              UI/UX Review Check
+            </h5>
+            <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+              The place is close to Barceloneta Beach and bus stop just 2 min by walk
+              and near to "Naviglio" where you can enjoy the main night life in
+              Barcelona.
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <button
+              class="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+              type="button"
+              data-ripple-light="true"
+            >
+              <a href="blog.html">button</a>
+            </button>
+          </div>
+        </div>
+  
+        <div class="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+          <div class="p-6">
+            <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              UI/UX Review Check
+            </h5>
+            <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+              The place is close to Barceloneta Beach and bus stop just 2 min by walk
+              and near to "Naviglio" where you can enjoy the main night life in
+              Barcelona.
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <button
+              class="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+              type="button"
+              data-ripple-light="true"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+    
     <!-- section 2 -->
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white dark:bg-gray-900 pt">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
             <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
                 <a href="#" class="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-blue-400 mb-2">
@@ -107,8 +168,8 @@
                     </svg>
                     Tutorial
                 </a>
-                <h1 class="text-gray-900 dark:text-white text-3xl md:text-5xl font-extrabold mb-2">Anda Kesulitan mencari tempat edukasi Hidroponik?</h1>
-                <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">Kami menyediakan resource untuk anda terkait agriculture, dan tentunya resource ini gratis diakses untuk semua pengguna.</p>
+                <h1 class="text-gray-900 dark:text-white text-3xl md:text-5xl font-extrabold mb-2">Tambah pengetahuan hidroponik dengan membaca artikel</h1>
+                <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">Baca artikel terbaru tentang hidroponik.</p>
                 <a href="#" class="inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                     Read more
                     <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -124,8 +185,9 @@
                         </svg>
                         Design
                     </a>
-                    <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Start with Flowbite Design System</h2>
-                    <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.</p>
+                    <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Ini adalah sayuran yang dapat ditanam menggunakan metode hidroponic</h2>
+                    <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">by Ana Gayloard.</p>
+                    <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Inilah beberapa contoh sayuran yang dapat ditanam dengan sukses menggunakan metode hidroponik.</p>
                     <a href="#" class="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">Read more
                         <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -139,8 +201,10 @@
                         </svg>
                         Froum Diskusi
                     </a>
-                    <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Best react libraries around the web</h2>
-                    <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.</p>
+                    <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Apa itu hidroponik?</h2>
+                    <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">by Anak Gayloard</p>
+                    <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Inilah beberapa contoh sayuran yang dapat ditanam 
+                      dengan sukses menggunakan metode hidroponik.</p>
                     <a href="#" class="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">Read more
                         <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -257,7 +321,7 @@
         </div>
     </div>
     <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">Flowbite™</a>. All Rights Reserved.
+        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">hydrofarm™</a>. All Rights Reserved.
         </span>
         <div class="flex mt-4 space-x-5 sm:justify-center md:mt-0">
             <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
